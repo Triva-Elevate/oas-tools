@@ -1,5 +1,5 @@
 {
-  "name": "oas-tools",
+  "name": "@triva-elevate/oas-tools",
   "version": "2.1.8",
   "description": "",
   "main": "src/index.js",
@@ -17,7 +17,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isa-group/oas-tools.git"
+    "url": "git+ssh://git@github.com/Triva-Elevate/triva-npm-packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "accesscontrol": "^2.2.1",
